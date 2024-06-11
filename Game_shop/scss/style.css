@@ -1,1 +1,291 @@
-/*# sourceMappingURL=style.css.map */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  padding-top: 25px;
+  display: flex;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__bottom {
+  padding: 24px 0 14px;
+  display: flex;
+  align-items: center;
+}
+.header .btn {
+  background: none;
+  border: none;
+}
+.header .btn:hover {
+  background-color: #77be1d;
+  border-color: #77be1d;
+}
+.header .dropdown-menu.show {
+  display: block;
+  background-color: #100D18;
+}
+.header .dropdown-item {
+  color: #ffffff;
+  background-color: #171320;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+.header .dropdown-item:hover {
+  background-color: #77be1d;
+}
+.header .currency {
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+}
+.header .currency__link {
+  background: #171320;
+}
+.header .currency__li {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #171320;
+  padding: 4px 12px;
+  border-radius: 5px;
+}
+.header .currency__li:hover {
+  background-color: #77be1d;
+}
+.header__scores {
+  display: flex;
+  align-items: center;
+}
+.header__score-txt {
+  padding-left: 23px;
+}
+.header__lang-but, .header__score {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.header .nav__list {
+  display: flex;
+}
+.header .nav__link {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.header .nav__item {
+  padding-right: 32px;
+}
+.header .nav__item:last-child {
+  padding-right: 0;
+}
+.header__img {
+  border: 2px solid #77be1d;
+  border-radius: 50px;
+}
+.header .searchbar {
+  display: flex;
+  align-items: center;
+  background-color: #c4c4c4;
+  padding: 22px 30px;
+  margin-right: 60px;
+  width: 648px;
+  border-radius: 15px;
+  opacity: 5%;
+}
+.header .searchbar__input {
+  font-size: 18px;
+  font-weight: 400;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  width: 100%;
+}
+.header .searchbar__icon {
+  margin-left: 30px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+}
+.header .searchbar__icon:hover {
+  transform: scale(1.2);
+}
+.header__logo {
+  padding-right: 60px;
+}
+.header__lines {
+  padding-right: 35px;
+}
+.header__free {
+  padding-right: 60px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.header__heart {
+  padding-right: 25px;
+}
+.header .basket-2 {
+  position: relative;
+}
+.header .basket-2__2-bg {
+  position: absolute;
+  top: -13px;
+  left: 13px;
+}
+.header__scores {
+  color: #ffffff;
+}
+.header__avatar {
+  display: flex;
+  align-items: center;
+}
+.header__name {
+  padding-right: 25px;
+  color: #ffffff;
+}
+
+body {
+  background-color: #06040F;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  width: 1260px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */

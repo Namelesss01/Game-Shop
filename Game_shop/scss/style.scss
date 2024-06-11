@@ -1,0 +1,15 @@
+@import "./vendors/reset";
+
+@import "./variables";
+
+@import "./components/header";
+
+body {
+  background-color: #06040F;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  width: 1260px;
+  margin: 0 auto;
+}
