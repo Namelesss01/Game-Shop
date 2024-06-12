@@ -9,6 +9,7 @@
 @import "./sections/minecraft";
 @import "./sections/stock";
 @import "./sections/blog";
+@import "../scss/sections/squad";
 
 body {
   background-color: #06040f;
@@ -16,7 +17,7 @@ body {
 }
 
 .container {
-  width: 1260px;
+  max-width: 1260px;
   margin: 0 auto;
 }
 
