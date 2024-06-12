@@ -26,7 +26,23 @@
     font-size: 40px;
     font-weight: 800;
     color: $text-white;
+    padding-top: 45px;
   }
+
+  .box{
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px 0;
+  }
+
+  .buy_squad{
+    background-color: $bg-green;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    margin-right: 9px;
+  }
+
   &__stock {
     font-size: 14px;
     font-weight: 400;
@@ -54,6 +70,17 @@
     font-size: 24px;
     font-weight: 700;
   }
+  .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 0;
+  }
+
+  .purchase-row{
+    display: flex;
+  }
+
   &__old {
     color: $text-grey;
     font-size: 24px;
@@ -112,12 +139,49 @@
   }
 
     &__details-characteristics{
-        flex-direction: column;
-      
+
+      padding-top: 40px;
 
         &__title, &__subtitle{
             color: $text-white;
+            padding-top: 8px;
         }
         
+    }
+
+    .link{
+      border-radius: 15px;
+      border: solid 1px;
+      max-width: 284px;
+      height: 66px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+
+      &__title{
+        text-decoration: none;
+        color: $text-green;
+        //padding: 18px 25px 22px ;
+      }
+    }
+
+    .quality{
+      &__title{
+        color: $text-white;
+        align-self: center;
+      }
+    }
+
+    &__delivery{
+      display: flex;
+      align-self: center;
+      //align-items: end;
+      //padding-bottom: 25px;
+
+      .quality{
+        margin-left: 29px;
+        padding-top: 38px;
+      }
     }
   }
