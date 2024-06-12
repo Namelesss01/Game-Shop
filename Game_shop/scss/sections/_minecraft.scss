@@ -1,0 +1,83 @@
+.minecraft {
+
+  .container{
+    display: flex;
+    gap: 10px;
+  }
+  padding-top: 90px;
+  &__bg {
+    position: relative;
+    background: linear-gradient(to bottom right, #1dbe53, #ace238);
+    width: 620px;
+    height: 360px;
+    border-radius: 15px;
+  }
+
+  &__creeper {
+    position: absolute;
+    top: -55px;
+    right: 30px;
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: 800;
+    color: $text-white;
+    padding: 40px 0 0 40px;
+    width: 410px;
+    line-height: 43.2px;
+    z-index: 2;
+  }
+
+  &__buttons {
+    margin-top: 115px;
+    margin-left: 40px;
+    &:hover {
+      cursor: pointer;
+
+      .minecraft__grey-btn
+
+       {
+        background-color: rgba($color: $bg-white, $alpha: 0.1);
+      }
+      
+    }
+  }
+
+  &__white-btn {
+    color: $text-white;
+    background-color: rgba($color: $bg-white, $alpha: 0.1 );
+    border-radius: 15px;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  &__grey-btn {
+    color: $text-white;
+    background-color: rgba($color: $bg-white, $alpha: 0);
+    border-radius: 15px;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+
+    
+  }
+
+  &__warriars{
+    position: absolute;
+    top: -110px;
+    right: -160px;
+    z-index: 0;
+  }
+
+  &__bg2{
+    position: relative;
+    background: linear-gradient(to bottom right, #FF3D23, #FDA828);
+    width: 620px;
+    height: 360px;
+    border-radius: 15px;
+  }
+}

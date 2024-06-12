@@ -1,0 +1,82 @@
+.hero {
+  padding-top: 40px;
+
+  &__poster {
+    position: relative;
+  }
+
+  &__nfs-logo {
+    position: absolute;
+    left: 120px;
+    top: 176px;
+    width: 221px;
+    height: 65px;
+  }
+
+  &__nfs-txt {
+    position: absolute;
+    left: 120px;
+    top: 261px;
+    color: $text-white;
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 592px;
+    line-height: 38.4px;
+  }
+
+  &__prices {
+    display: flex;
+    position: absolute;
+    top: 415px;
+    left: 120px;
+  }
+
+  &__price {
+    font-size: 32px;
+    font-weight: 800;
+    color: $text-white;
+  }
+
+  &__percent {
+    padding-top: 10px;
+    padding-left: 18px;
+    font-size: 20px;
+    font-weight: 800;
+    color: $text-green;
+  }
+
+  &__old-price {
+    padding-top: 10px;
+    padding-left: 19px;
+    font-size: 20px;
+    font-weight: 600;
+    color: $text-grey;
+  }
+
+  &__buttons {
+    position: absolute;
+    left: 120px;
+    top: 520px;
+  }
+
+  &__white-btn {
+    color: $text-black;
+    background-color: $bg-white;
+    border-radius: 15px;
+    padding: 25px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  &__grey-btn {
+    color: $text-white;
+    background-color: rgba($color: $bg-white, $alpha: 0.1);
+    border-radius: 15px;
+    padding: 25px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
