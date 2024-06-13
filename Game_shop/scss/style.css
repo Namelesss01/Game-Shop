@@ -658,6 +658,19 @@ table {
   font-size: 40px;
   font-weight: 800;
   color: #ffffff;
+  padding-top: 45px;
+}
+.squad .box {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+.squad .buy_squad {
+  background-color: #77be1d;
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  margin-right: 9px;
 }
 .squad__stock {
   font-size: 14px;
@@ -682,6 +695,15 @@ table {
   color: #77be1d;
   font-size: 24px;
   font-weight: 700;
+}
+.squad .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+.squad .purchase-row {
+  display: flex;
 }
 .squad__old {
   color: #747474;
@@ -734,10 +756,140 @@ table {
   padding-top: 40px;
 }
 .squad__details-characteristics {
-  flex-direction: column;
+  padding-top: 40px;
 }
 .squad__details-characteristics__title, .squad__details-characteristics__subtitle {
   color: #ffffff;
+  padding-top: 8px;
+}
+.squad .link {
+  border-radius: 15px;
+  border: solid 1px;
+  max-width: 284px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.squad .link__title {
+  text-decoration: none;
+  color: #77be1d;
+  padding: 18px 25px 22px;
+}
+.squad .quality__title {
+  color: #ffffff;
+  align-self: center;
+}
+.squad .quality__box {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: solid;
+}
+.squad__delivery {
+  display: flex;
+  align-self: center;
+}
+.squad__delivery .quality {
+  margin-left: 29px;
+  padding-top: 38px;
+}
+.squad__nav {
+  padding-left: 130px;
+  padding-top: 70px;
+}
+.squad__nav-story {
+  padding-left: 130px;
+  padding-top: 100px;
+}
+.squad__nav-story__title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.squad__nav-story__description {
+  padding-top: 15px;
+  color: #747474;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.squad__nav-ul {
+  display: flex;
+}
+.squad__nav-li {
+  padding-right: 46px;
+  position: relative;
+  display: inline-block;
+}
+.squad__nav-li:hover {
+  cursor: pointer;
+}
+.squad__nav-li:hover .squad__nav-link {
+  bottom: -22px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.squad__nav-link {
+  color: #747474;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.interesting__title {
+  padding: 70px 0 20px 20px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+}
+.interesting .game__rows {
+  padding-left: 20px;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 160px;
+}
+.footer__title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.footer .nav__item {
+  padding-top: 20px;
+}
+.footer .nav__link {
+  text-decoration: none;
+  color: #747474;
+  font-size: 19px;
+  font-weight: 400;
+}
+.footer__info {
+  display: flex;
+  padding-top: 60px;
+}
+.footer .text {
+  padding-top: 41px;
+  color: #747474;
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer .safety {
+  display: flex;
+  align-items: center;
+}
+.footer .bottom-row {
+  display: flex;
+  padding-top: 57px;
+}
+.footer .social {
+  display: flex;
+}
+.footer .social__item {
+  padding-left: 26px;
 }
 
 body {
