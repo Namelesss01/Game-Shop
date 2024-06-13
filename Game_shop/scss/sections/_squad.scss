@@ -89,15 +89,19 @@
 
   .buy {
     border-radius: 15px;
-    background-color: $bg-green;
+    border: solid;
     width: 142px;
     height: 73px;
     display: flex;
     align-items: center;
     justify-content: center;
 
+    &:hover{
+      cursor: pointer;
+      background-color: $text-green
+    }
+
     &__title {
-      background-color: $bg-green;
       text-decoration: none;
       font-size: 18px;
       font-weight: 600;
@@ -114,6 +118,11 @@
     align-items: center;
     justify-content: center;
     margin-left: 10px;
+
+    &:hover{
+      cursor: pointer;
+      background-color: $text-green
+    }
 
     &__title {
       font-size: 18px;
@@ -132,6 +141,11 @@
     justify-content: center;
     color: solid;
     margin: 12px 0 12px 20px;
+
+    &:hover{
+      cursor: pointer;
+      background-color: $text-green
+    }
   }
 
   .details {
@@ -160,8 +174,13 @@
 
     &__title {
       text-decoration: none;
-      color: $text-green;
+      color: $text-white;
       padding: 18px 25px 22px;
+
+      &:hover{
+        cursor: pointer;
+        color: $text-green
+      }
     }
   }
 

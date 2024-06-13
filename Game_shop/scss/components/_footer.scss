@@ -43,11 +43,23 @@
 
     .bottom-row{
         display: flex;
-        padding-top: 57px;
+        padding: 57px 0;
     }
 
     .social{
         display: flex;
+
+        &__link {
+            path {
+                transition: fill 0.3s ease;
+            }
+    
+            &:hover {
+                path {
+                    fill: #77be1d;
+                }
+            }
+        } 
 
         &__item{
             padding-left: 26px;
