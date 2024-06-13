@@ -775,10 +775,17 @@ table {
 .squad .link__title {
   text-decoration: none;
   color: #77be1d;
+  padding: 18px 25px 22px;
 }
 .squad .quality__title {
   color: #ffffff;
   align-self: center;
+}
+.squad .quality__box {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: solid;
 }
 .squad__delivery {
   display: flex;
@@ -787,6 +794,58 @@ table {
 .squad__delivery .quality {
   margin-left: 29px;
   padding-top: 38px;
+}
+.squad__nav {
+  padding-left: 130px;
+  padding-top: 70px;
+}
+.squad__nav-story {
+  padding-left: 130px;
+  padding-top: 100px;
+}
+.squad__nav-story__title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.squad__nav-story__description {
+  padding-top: 15px;
+  color: #747474;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.squad__nav-ul {
+  display: flex;
+}
+.squad__nav-li {
+  padding-right: 46px;
+  position: relative;
+  display: inline-block;
+}
+.squad__nav-li:hover {
+  cursor: pointer;
+}
+.squad__nav-li:hover .squad__nav-link {
+  bottom: -22px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.squad__nav-link {
+  color: #747474;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.interesting__title {
+  padding: 70px 0 20px 20px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+}
+.interesting .game__rows {
+  padding-left: 20px;
 }
 
 body {
