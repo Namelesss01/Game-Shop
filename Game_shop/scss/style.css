@@ -848,6 +848,50 @@ table {
   padding-left: 20px;
 }
 
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 160px;
+}
+.footer__title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.footer .nav__item {
+  padding-top: 20px;
+}
+.footer .nav__link {
+  text-decoration: none;
+  color: #747474;
+  font-size: 19px;
+  font-weight: 400;
+}
+.footer__info {
+  display: flex;
+  padding-top: 60px;
+}
+.footer .text {
+  padding-top: 41px;
+  color: #747474;
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer .safety {
+  display: flex;
+  align-items: center;
+}
+.footer .bottom-row {
+  display: flex;
+  padding-top: 57px;
+}
+.footer .social {
+  display: flex;
+}
+.footer .social__item {
+  padding-left: 26px;
+}
+
 body {
   background-color: #06040f;
   font-family: "Manrope", sans-serif;
