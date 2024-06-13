@@ -1,0 +1,29 @@
+.stock{
+
+    &__rows{
+        display: flex;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    &__top{
+        display: flex;
+        align-items: center;
+    }
+
+    &__title{
+        color: $text-white;
+        font-size: 32px;
+        font-weight: 600;
+        padding-right: 10px;
+    }
+    &__pr{
+        color: $text-green;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    &__cola{
+        padding-top: 70px;
+    }
+}
