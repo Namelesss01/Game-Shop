@@ -1,0 +1,115 @@
+.review{
+    &__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 58px;
+    }
+
+    &__title{
+        color: $text-white;
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    &__but{
+        display: flex;
+        align-items: center;
+        position: relative;
+
+    }
+
+    &__bt-li{
+        padding: 16px 62px 16px 32px;
+        border: 2px solid $bg-grey;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &__left{
+        position: absolute;
+        right: 40px;
+    }
+
+    &__col{
+        display: flex;
+ 
+    }
+
+    &__subtitle{
+        color: $text-white;
+        font-size: 24px;
+        font-weight: 500;
+        padding-bottom: 17px;
+    }
+
+    &__under-star{
+        color: $text-white;
+        font-size: 15px;
+        padding: 17px 0;
+        font-weight: 400;
+    }
+
+    &__fix{
+        padding-right: 66px;
+        text-align: center;
+        
+        
+    }
+
+    &__stars-time{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__stars{
+        height: 20.8px;
+        width: 117.13px;
+    }
+
+    &__when{
+        color: $text-grey;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    &__min-title{
+        color: $text-white;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 11px 0 6px;
+    }
+    
+    &__txt{
+        color: $text-white;
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: 18px;
+    }
+
+    &__com-autor{
+        color: $text-grey;
+        font-size: 15px;
+        font-weight: 400;
+ 
+    }
+
+    &__reiting{
+        color: $text-white;
+        font-size: 15px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+
+    &__com-box{
+        width: 300px;
+    }
+
+    &__row{
+        display: flex;
+        gap: 40px;
+    }
+}

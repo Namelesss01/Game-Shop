@@ -286,6 +286,9 @@ table {
 .hero__poster {
   position: relative;
 }
+.hero__image {
+  opacity: 0.6;
+}
 .hero__nfs-logo {
   position: absolute;
   left: 120px;
@@ -356,11 +359,11 @@ table {
 .game {
   padding-top: 100px;
 }
-.game__top-4 {
+.game__top-four {
   display: flex;
 }
 .game__rows {
-  padding-top: 60px;
+  padding-top: 20px;
 }
 .game__nav-ul {
   display: flex;
@@ -368,6 +371,9 @@ table {
 }
 .game__nav-ul:last-child {
   padding-right: 0;
+}
+.game__navig {
+  margin-bottom: 60px;
 }
 .game__nav-li {
   padding-right: 30px;
@@ -389,7 +395,6 @@ table {
   font-size: 32px;
   font-weight: 600;
   color: #ffffff;
-  padding-bottom: 20px;
 }
 .game__light-icon {
   margin: 7px 10px;
@@ -410,7 +415,7 @@ table {
   top: 20px;
   left: 150px;
 }
-.game__link-basket {
+.game__link-basket, .game__link-basket-min {
   position: absolute;
   top: 370px;
   left: 20px;
@@ -432,6 +437,9 @@ table {
 }
 .game__el:hover .game__link-basket {
   transform: translate(0%, 0%) scale(1);
+}
+.game__el:hover .game__link-basket-min {
+  transform: translate(0px, -70%) scale(1);
 }
 .game__prices {
   margin-top: 20px;
@@ -457,7 +465,7 @@ table {
   color: #747474;
 }
 .game__info {
-  top: 10px;
+  margin: 20px;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
@@ -485,6 +493,7 @@ table {
 .game__info-under {
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 .game__but {
   margin: 40px auto;
@@ -496,13 +505,29 @@ table {
 }
 
 .minecraft {
-  padding-top: 90px;
+  padding-top: 46px;
 }
 .minecraft .container {
   display: flex;
   gap: 10px;
 }
-.minecraft__bg {
+.minecraft .swiper {
+  width: 100%;
+  height: 100%;
+}
+.minecraft .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minecraft .minecraft__row {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.minecraft__bg-gr {
   position: relative;
   background: linear-gradient(to bottom right, #1dbe53, #ace238);
   width: 620px;
@@ -522,6 +547,12 @@ table {
   width: 410px;
   line-height: 43.2px;
   z-index: 2;
+}
+.minecraft .price {
+  margin-left: 30px;
+}
+.minecraft .percent {
+  color: #FDA828;
 }
 .minecraft__buttons {
   margin-top: 115px;
@@ -557,7 +588,7 @@ table {
   right: -160px;
   z-index: 0;
 }
-.minecraft__bg2 {
+.minecraft__bg-or {
   position: relative;
   background: linear-gradient(to bottom right, #FF3D23, #FDA828);
   width: 620px;
@@ -568,7 +599,7 @@ table {
 .stock__rows {
   display: flex;
   gap: 20px;
-  padding-top: 66px;
+  padding-top: 20px;
 }
 .stock__top {
   display: flex;
@@ -911,6 +942,98 @@ table {
 }
 .footer .social__item {
   padding-left: 26px;
+}
+
+.review__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 58px;
+}
+.review__title {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 500;
+}
+.review__but {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.review__bt-li {
+  padding: 16px 62px 16px 32px;
+  border: 2px solid #3d394a;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.review__left {
+  position: absolute;
+  right: 40px;
+}
+.review__col {
+  display: flex;
+}
+.review__subtitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 17px;
+}
+.review__under-star {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 17px 0;
+  font-weight: 400;
+}
+.review__fix {
+  padding-right: 66px;
+  text-align: center;
+}
+.review__stars-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.review__stars {
+  height: 20.8px;
+  width: 117.13px;
+}
+.review__when {
+  color: #747474;
+  font-size: 15px;
+  font-weight: 400;
+}
+.review__min-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 11px 0 6px;
+}
+.review__txt {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 18px;
+}
+.review__com-autor {
+  color: #747474;
+  font-size: 15px;
+  font-weight: 400;
+}
+.review__reiting {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.review__com-box {
+  width: 300px;
+}
+.review__row {
+  display: flex;
+  gap: 40px;
 }
 
 body {
