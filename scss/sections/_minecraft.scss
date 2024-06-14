@@ -1,40 +1,37 @@
 .minecraft {
   padding-top: 46px;
 
-  .container{
+  .container {
     display: flex;
     gap: 10px;
   }
 
-
-  
   .swiper {
     width: 100%;
     height: 100%;
   }
 
   .swiper-slide {
-    
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .minecraft__row {
-    display: block;
+    display: flex;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    gap: 30px;
   }
 
-  
- 
   &__bg-gr {
     position: relative;
     background: linear-gradient(to bottom right, #1dbe53, #ace238);
     width: 620px;
     height: 360px;
     border-radius: 15px;
+    padding-right: 30px;
   }
 
   &__creeper {
@@ -53,14 +50,12 @@
     z-index: 2;
   }
 
-  .price{
+  .price {
     margin-left: 30px;
-
-  
   }
 
-  .percent{
-    color: #FDA828;
+  .percent {
+    color: #fda828;
   }
 
   &__buttons {
@@ -69,18 +64,15 @@
     &:hover {
       cursor: pointer;
 
-      .minecraft__grey-btn
-
-       {
+      .minecraft__grey-btn {
         background-color: rgba($color: $bg-white, $alpha: 0.1);
       }
-      
     }
   }
 
   &__white-btn {
     color: $text-white;
-    background-color: rgba($color: $bg-white, $alpha: 0.1 );
+    background-color: rgba($color: $bg-white, $alpha: 0.1);
     border-radius: 15px;
     padding: 20px 40px;
     text-decoration: none;
@@ -96,20 +88,18 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: 800;
-
-    
   }
 
-  &__warriars{
+  &__warriars {
     position: absolute;
     top: -110px;
     right: -160px;
     z-index: 0;
   }
 
-  &__bg-or{
+  &__bg-or {
     position: relative;
-    background: linear-gradient(to bottom right, #FF3D23, #FDA828);
+    background: linear-gradient(to bottom right, #ff3d23, #fda828);
     width: 620px;
     height: 360px;
     border-radius: 15px;

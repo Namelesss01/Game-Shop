@@ -1,0 +1,73 @@
+.minecraft-counter {
+  padding-top: -100px;
+  &__row {
+    position: relative;
+    display: flex;
+    gap: 50px;
+  }
+
+  &__title {
+    color: $text-white;
+    font-size: 28px;
+    font-weight: 500;
+    height: 36.4px;
+  }
+
+  .price {
+    margin-left: -20px;
+    margin-bottom: 40px;
+  }
+
+  &__txt {
+    color: $text-grey;
+  }
+  &__txt-f {
+    color: $text-grey;
+    padding-bottom: 10px;
+  }
+
+  &__txt-white {
+    color: $text-white;
+  }
+
+  &__icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__ix {
+    position: absolute;
+    top: 0;
+    right: 350px;
+    width: 14px;
+    height: 14px;
+  }
+
+  &__plus {
+    position: absolute;
+    top: 70px;
+    right: 350px;
+    width: 70px;
+    height: 30px;
+  }
+
+  &__heart {
+    position: absolute;
+    top: 210px;
+    right: 350px;
+    width: 26px;
+    height: 31px;
+    opacity: 10%;
+  }
+
+  &__txt {
+    border: 2px solid $bg-grey;
+    padding: 30px;
+    border-radius: 30px;
+    position: absolute;
+    left: 950px;
+    width: 290px;
+    color: $text-white;
+    line-height: 25px;
+  }
+}
