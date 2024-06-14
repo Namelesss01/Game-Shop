@@ -1049,6 +1049,81 @@ table {
   gap: 40px;
 }
 
+.basket {
+  display: relative;
+}
+.basket__title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.basket__five {
+  color: #77be1d;
+  font-size: 48px;
+  font-weight: 700;
+}
+.basket__titles {
+  display: flex;
+  padding-bottom: 30px;
+}
+.basket__sign {
+  position: relative;
+}
+.basket__top-text {
+  position: absolute;
+  color: #ffffff;
+  top: 30px;
+  left: 30px;
+  font-size: 32px;
+  font-weight: 800;
+}
+.basket__text {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  top: 82px;
+  left: 30px;
+  line-height: 26px;
+}
+.basket__link {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  background-color: #ffffff;
+  top: 177px;
+  left: 30px;
+  line-height: 20.8px;
+  padding: 13px 25px 16px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.basket__top-form {
+  display: flex;
+}
+
+.container {
+  gap: 30px;
+  position: relative;
+}
+
+.checkout {
+  width: 321px;
+  height: 382px;
+  top: 299px;
+  border-radius: 30px;
+  margin-left: 50px;
+}
+.checkout__title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 26px;
+  align-items: center;
+}
+
 body {
   background-color: #06040f;
   font-family: "Manrope", sans-serif;
