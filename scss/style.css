@@ -356,6 +356,17 @@ table {
   font-weight: 600;
 }
 
+@media screen and (max-width: 560px) {
+  .hero .nav {
+    display: none;
+  }
+  .hero .hero__rows {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
 .game {
   padding-top: 100px;
 }
@@ -521,11 +532,12 @@ table {
   align-items: center;
 }
 .minecraft .minecraft__row {
-  display: block;
+  display: flex;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  gap: 30px;
 }
 .minecraft__bg-gr {
   position: relative;
@@ -533,6 +545,7 @@ table {
   width: 620px;
   height: 360px;
   border-radius: 15px;
+  padding-right: 30px;
 }
 .minecraft__creeper {
   position: absolute;
@@ -552,7 +565,7 @@ table {
   margin-left: 30px;
 }
 .minecraft .percent {
-  color: #FDA828;
+  color: #fda828;
 }
 .minecraft__buttons {
   margin-top: 115px;
@@ -590,7 +603,7 @@ table {
 }
 .minecraft__bg-or {
   position: relative;
-  background: linear-gradient(to bottom right, #FF3D23, #FDA828);
+  background: linear-gradient(to bottom right, #ff3d23, #fda828);
   width: 620px;
   height: 360px;
   border-radius: 15px;
@@ -666,6 +679,7 @@ table {
 }
 
 .squad .container {
+  max-width: 1260px;
   width: 100%;
   display: flex;
   position: relative;
@@ -710,8 +724,7 @@ table {
 }
 .squad__posters {
   margin-top: 85px;
-  display: flex;
-  justify-content: center;
+  padding-bottom: 71px;
 }
 .squad__image {
   max-width: 297px;
@@ -827,12 +840,6 @@ table {
   color: #ffffff;
   align-self: center;
 }
-.squad .quality__box {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  border: solid;
-}
 .squad__delivery {
   display: flex;
   align-self: center;
@@ -841,12 +848,11 @@ table {
   margin-left: 29px;
   padding-top: 38px;
 }
-.squad__nav {
-  padding-left: 130px;
-  padding-top: 70px;
+.squad-row {
+  width: 100%;
+  max-height: 29px;
 }
 .squad__nav-story {
-  padding-left: 130px;
   padding-top: 100px;
 }
 .squad__nav-story__title {
@@ -867,7 +873,6 @@ table {
 .squad__nav-li {
   padding-right: 46px;
   position: relative;
-  display: inline-block;
 }
 .squad__nav-li:hover {
   cursor: pointer;
@@ -916,6 +921,9 @@ table {
 .footer__info {
   display: flex;
   padding-top: 60px;
+}
+.footer .link {
+  text-decoration: none;
 }
 .footer .text {
   padding-top: 41px;
@@ -1034,6 +1042,170 @@ table {
 .review__row {
   display: flex;
   gap: 40px;
+}
+
+.basket {
+  display: relative;
+}
+.basket__title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.basket__five {
+  color: #77be1d;
+  font-size: 48px;
+  font-weight: 700;
+}
+.basket__titles {
+  display: flex;
+  padding-bottom: 30px;
+}
+.basket__sign {
+  position: relative;
+}
+.basket__top-text {
+  position: absolute;
+  color: #ffffff;
+  top: 30px;
+  left: 30px;
+  font-size: 32px;
+  font-weight: 800;
+}
+.basket__text {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  top: 82px;
+  left: 30px;
+  line-height: 26px;
+}
+.basket__link {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  background-color: #ffffff;
+  top: 177px;
+  left: 30px;
+  line-height: 20.8px;
+  padding: 13px 25px 16px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.basket__top-form {
+  display: flex;
+}
+
+.container {
+  gap: 30px;
+  position: relative;
+}
+
+.checkout {
+  width: 321px;
+  height: 382px;
+  top: 299px;
+  border: 2px solid #3d394a;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin-left: 50px;
+  text-align: center;
+}
+.checkout__title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 26px;
+  padding-bottom: 25px;
+  padding-top: 30px;
+}
+.checkout__subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+.checkout__txt {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  padding: 60px 0px;
+  line-height: 25px;
+}
+.checkout__link {
+  color: #77be1d;
+  border-radius: 15px;
+  text-decoration: none;
+  background: rgba(119, 190, 29, 0.5);
+  padding: 18px 39px;
+}
+
+.minecraft-counter {
+  padding-top: -100px;
+}
+.minecraft-counter__row {
+  position: relative;
+  display: flex;
+  gap: 50px;
+}
+.minecraft-counter__title {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  height: 36.4px;
+}
+.minecraft-counter .price {
+  margin-left: -20px;
+  margin-bottom: 40px;
+}
+.minecraft-counter__txt {
+  color: #747474;
+}
+.minecraft-counter__txt-f {
+  color: #747474;
+  padding-bottom: 10px;
+}
+.minecraft-counter__txt-white {
+  color: #ffffff;
+}
+.minecraft-counter__icons {
+  display: flex;
+  flex-direction: column;
+}
+.minecraft-counter__ix {
+  position: absolute;
+  top: 0;
+  right: 350px;
+  width: 14px;
+  height: 14px;
+}
+.minecraft-counter__plus {
+  position: absolute;
+  top: 70px;
+  right: 350px;
+  width: 70px;
+  height: 30px;
+}
+.minecraft-counter__heart {
+  position: absolute;
+  top: 210px;
+  right: 350px;
+  width: 26px;
+  height: 31px;
+  opacity: 10%;
+}
+.minecraft-counter__txt {
+  border: 2px solid #3d394a;
+  padding: 30px;
+  border-radius: 30px;
+  position: absolute;
+  left: 950px;
+  width: 290px;
+  color: #ffffff;
+  line-height: 25px;
 }
 
 body {
