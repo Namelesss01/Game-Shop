@@ -356,6 +356,17 @@ table {
   font-weight: 600;
 }
 
+@media screen and (max-width: 560px) {
+  .hero .nav {
+    display: none;
+  }
+  .hero .hero__rows {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
 .game {
   padding-top: 100px;
 }
