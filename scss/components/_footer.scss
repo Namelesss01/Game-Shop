@@ -12,7 +12,6 @@
     }
 
     .nav{
-
         &__item{
             padding-top: 20px;
         }
@@ -27,6 +26,10 @@
     &__info{
         display: flex;
         padding-top: 60px;
+    }
+
+    .link{
+        text-decoration: none;
     }
 
     .text{
