@@ -5,52 +5,45 @@
     display: flex;
   }
 
-  &__rows{
+  &__rows {
     padding-top: 20px;
   }
 
-  &__nav-ul{
+  &__nav-ul {
     display: flex;
     padding-right: 30px;
-    &:last-child{
+    &:last-child {
       padding-right: 0;
     }
-
-    
   }
 
-  &__navig{
+  &__navig {
     margin-bottom: 60px;
   }
 
-  &__nav-li{
+  &__nav-li {
     padding-right: 30px;
-    &:hover{
+    &:hover {
       cursor: pointer;
 
-      .game__nav-link{
+      .game__nav-link {
         color: $text-white;
         text-decoration: underline;
       }
     }
-    
   }
 
-  &__nav-link{
+  &__nav-link {
     color: $text-grey;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 500; 
-
+    font-weight: 500;
   }
-
-
 
   &__title {
     font-size: 32px;
     font-weight: 600;
     color: $text-white;
-
   }
 
   &__light-icon {
@@ -59,7 +52,6 @@
     height: 22px;
   }
 
- 
   &__rows {
     display: flex;
     justify-content: space-between;
@@ -71,7 +63,7 @@
     left: 20px;
   }
 
-  &__bestselle{
+  &__bestselle {
     position: absolute;
     top: 20px;
     left: 150px;
@@ -91,25 +83,23 @@
     text-decoration: none;
     transform: translate(0%, -50%) scale(0);
     transition: 0.3s;
-
   }
 
   &__el {
     position: relative;
 
-    &:hover{
+    &:hover {
       cursor: pointer;
 
-      .game__link-basket{
-        transform: translate(0%, 0%)  scale(1);
+      .game__link-basket {
+        transform: translate(0%, 0%) scale(1);
       }
 
-      .game__link-basket-min{
-        transform: translate(0px, -70%)  scale(1);
+      .game__link-basket-min {
+        transform: translate(0px, -70%) scale(1);
       }
     }
   }
-
 
   &__prices {
     margin-top: 20px;
@@ -144,7 +134,6 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 20.8px;
-
   }
 
   &__circle {
@@ -173,12 +162,48 @@
     align-items: center;
     margin-top: 20px;
   }
-  &__but{
+  &__but {
     margin: 40px auto;
     padding: 26px 545px;
-    border: 2px solid rgba($color:$input-silver, $alpha: 0.1);
+    border: 2px solid rgba($color: $input-silver, $alpha: 0.1);
     background: none;
     border-radius: 15px;
     color: $text-blue;
+  }
 }
+
+.game {
+  @media screen and (max-width: 560px) {
+    &__rows {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__el {
+      display: flex;
+      padding-top: 10px;
+    }
+
+    &__image {
+      width: 200px;
+    }
+
+    &__link-basket,
+    &__link-basket-min {
+      display: none;
+    }
+
+    &__bestselle {
+      display: none;
+    }
+
+    &__but {
+      padding: 26px 195px;
+      font-size: 16px;
+    }
+  }
+}
+
+.game__catalog-but {
+  padding: 0;
 }

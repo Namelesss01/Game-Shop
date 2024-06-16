@@ -246,6 +246,12 @@ table {
 .header .searchbar__icon:hover {
   transform: scale(1.2);
 }
+.header__icon-mob {
+  visibility: hidden;
+}
+.header__basket-mob {
+  visibility: hidden;
+}
 .header__logo {
   padding-right: 60px;
 }
@@ -278,6 +284,65 @@ table {
 .header__name {
   padding-right: 25px;
   color: #ffffff;
+}
+
+.logo__image {
+  padding-right: 10px;
+}
+.logo__link {
+  display: flex;
+}
+
+@media screen and (max-width: 560px) and (max-width: 560px) {
+  .header__top {
+    display: none;
+  }
+}
+@media screen and (max-width: 560px) and (max-width: 560px) {
+  .header__free {
+    display: none;
+  }
+}
+@media screen and (max-width: 560px) and (max-width: 560px) {
+  .header__heart {
+    display: none;
+  }
+}
+@media screen and (max-width: 560px) and (max-width: 560px) {
+  .header__icon-mob {
+    visibility: inherit;
+  }
+}
+@media screen and (max-width: 560px) and (max-width: 560px) {
+  .header__basket-mob {
+    visibility: inherit;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 560px) and (max-width: 560px) {
+  .header__basket-2 {
+    display: none;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 560px) and (max-width: 560px) {
+  .header__mob-icons {
+    visibility: visible;
+    margin-right: -40px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .searchbar {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header__bottom {
+    display: flex;
+  }
 }
 
 .hero {
@@ -354,17 +419,6 @@ table {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
-}
-
-@media screen and (max-width: 560px) {
-  .hero .nav {
-    display: none;
-  }
-  .hero .hero__rows {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
 }
 
 .game {
@@ -515,6 +569,34 @@ table {
   color: #4277ff;
 }
 
+@media screen and (max-width: 560px) {
+  .game__rows {
+    display: flex;
+    flex-direction: column;
+  }
+  .game__el {
+    display: flex;
+    padding-top: 10px;
+  }
+  .game__image {
+    width: 200px;
+  }
+  .game__link-basket, .game__link-basket-min {
+    display: none;
+  }
+  .game__bestselle {
+    display: none;
+  }
+  .game__but {
+    padding: 26px 195px;
+    font-size: 16px;
+  }
+}
+
+.game__catalog-but {
+  padding: 0;
+}
+
 .minecraft {
   padding-top: 46px;
 }
@@ -633,6 +715,17 @@ table {
   padding-top: 70px;
 }
 
+@media screen and (max-width: 560px) {
+  .stock__rows {
+    display: flex;
+    flex-direction: column;
+  }
+  .stock__cola {
+    width: 535px;
+    height: 150px;
+  }
+}
+
 .blog {
   padding: 70px 0 70px;
 }
@@ -676,6 +769,13 @@ table {
   font-size: 16px;
   font-weight: 400;
   margin-left: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .blog__rows {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .squad .container {
@@ -1042,6 +1142,12 @@ table {
 .review__row {
   display: flex;
   gap: 40px;
+}
+
+@media screen and (max-width: 650px) {
+  .review {
+    display: none;
+  }
 }
 
 .basket {

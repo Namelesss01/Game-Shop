@@ -83,17 +83,3 @@
     font-weight: 600;
   }
 }
-
-.hero {
-  @media screen and (max-width: 560px) {
-    .nav {
-      display: none;
-    }
-
-    .hero__rows {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-    }
-  }
-}
