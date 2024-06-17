@@ -70,7 +70,7 @@
               <li class="nav__item">
                 <a
                   class="nav__link"
-                  href="./pages/buy.html"
+                  href="../pages/buy.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   >Как купить</a
@@ -86,7 +86,7 @@
           </nav>
           <div class="header__avatar">
             <span class="header__name">Hanzed Rules</span>
-            <img class="header__img" src="./img/ava.svg" alt="" />
+            <img class="header__img" src="../img/ava.svg" alt="user" />
           </div>
         </div>
         <div class="header__bottom">
@@ -95,34 +95,64 @@
               <img
                 class="logo__image"
                 src="../img/icons/logo.svg"
-                alt="MovieDB"
+                alt="logo-Icon"
               />
-              <img class="logo__name" src="../img/icons/logo-name.svg" alt="" />
+              <img
+                class="logo__name"
+                src="../img/icons/logo-name.svg"
+                alt="Playnchill"
+              />
             </a>
           </div>
-          <img class="header__lines" src="./img/icons/lines.svg" alt="" />
+          <img class="header__lines" src="./img/icons/lines.svg" alt="lines" />
           <div class="header__searchbar searchbar">
             <input class="searchbar__input" placeholder="Поиск" type="text" />
-            <img class="header__icon" src="./img/icons/search.svg" alt="" />
+            <img
+              class="header__icon"
+              src="../img/icons/search.svg"
+              alt="search"
+            />
           </div>
-          <a class="header__free" href="#"><span>Бесплатно</span></a>
-          <a href="#"
-            ><img class="header__heart" src="./img/icons/heart.svg" alt=""
+          <div class="header__mob-icons"></div>
+          <a href="#">
+            <img
+              class="header__icon-mob"
+              src="../img/icons/loopa.svg"
+              alt="search"
+            />
+          </a>
+          <a href="../pages/basket.html"
+            ><img
+              class="header__basket-mob"
+              src="../img/icons/basket-mob.svg"
+              alt="basket"
           /></a>
 
-          <div class="header__basket-2 basket-2">
+          <a class="header__free" href="#"><span>Бесплатно</span></a>
+          <a href="#"
+            ><img
+              class="header__heart"
+              src="../img/icons/heart.svg"
+              alt="heart"
+          /></a>
+
+          <div class="header__basket-two basket-two">
             <a href="#">
               <img
-                class="basket-2__basket"
-                src="./img/icons/basket.svg"
+                class="basket-two__basket"
+                src="../img/icons/basket.svg"
                 alt=""
               />
-              <img class="basket-2__2-bg" src="./img/icons/2-bg.svg" alt="" />
+              <img
+                class="basket-two__two-bg"
+                src="../img/icons/2-bg.svg"
+                alt=""
+              />
             </a>
           </div>
         </div>
       </div>
-    </header>
+    </header> 
 
     <section class="squad">
       <div class="container">
@@ -207,7 +237,7 @@
         </div>
       </div>
       <div class="container">
-        <div class="squad__posters row">
+        <div class="squad__posters-row">
           <img
             class="squad__image"
             src="../img/buy_page/squad-2.png"
@@ -275,40 +305,43 @@
           <div class="game__el">
             <img
               class="game__image"
-              src="../img/buy_page/interesting-1.png"
-              alt=""
+              src="../img/games/flower.png"
+              alt="flower"
             />
-            <img
-              class="game__light-4"
-              src="../img/icons/new-icon.svg"
-              alt=" game"
-            />
-            <a class="game__link-basket" href="#">В корзину</a>
+            <img class="game__light-4" src="./img/icons/new-icon.svg" alt="" />
+            <a
+              class="game__link-basket-min"
+              href="/pages/basket.html"
+              target="_blank"
+              >В корзину</a
+            >
 
-            <div class="prices">
-              <h2 class="price">4 999 Р</h2>
-              <span class="percent">-25%</span>
-              <span class="old-price">6 999 Р</span>
-            </div>
+            <div class="game__all-info">
+              <div class="prices">
+                <h2 class="price">4 999 Р</h2>
+                <span class="percent">-25%</span>
+                <span class="old-price">6 999 Р</span>
+              </div>
 
-            <span class="game__info"> Minecraft </span>
-            <div class="game__info-under">
-              <div class="game__circle"></div>
-              <span class="game__bust">Буст</span>
-              <div class="game__circle"></div>
-              <span class="game__origin">Origin</span>
+              <span class="game__info"> Minecraft </span>
+              <div class="game__info-under">
+                <div class="game__circle"></div>
+                <span class="game__bust">Буст</span>
+                <div class="game__circle"></div>
+                <span class="game__origin">Origin</span>
+              </div>
             </div>
           </div>
 
           <div class="game__el">
             <img
               class="game__image"
-              src="../img/buy_page/interesting-2.png"
-              alt="game"
+              src="../img/games/hohokum.png"
+              alt="hohokum"
             />
             <img
               class="game__light-4"
-              src="../img/icons/bestseller.svg"
+              src="./img/icons/bestseller.svg"
               alt=""
             />
             <img
@@ -316,68 +349,89 @@
               src="../img/icons/new-icon.svg"
               alt=""
             />
-            <a class="game__link-basket" href="#">В корзину</a>
+            <a
+              class="game__link-basket-min"
+              href="/pages/basket.html"
+              target="_blank"
+              >В корзину</a
+            >
 
-            <div class="prices">
-              <h2 class="price">4 999 Р</h2>
-              <span class="percent">-25%</span>
-              <span class="old-price">6 999 Р</span>
-            </div>
+            <div class="game__all-info">
+              <div class="prices">
+                <h2 class="price">4 999 Р</h2>
+                <span class="percent">-25%</span>
+                <span class="old-price">6 999 Р</span>
+              </div>
 
-            <span class="game__info"> Minecraft </span>
-            <div class="game__info-under">
-              <div class="game__circle"></div>
-              <span class="game__bust">Буст</span>
-              <div class="game__circle"></div>
-              <span class="game__origin">Origin</span>
-            </div>
-          </div>
-
-          <div class="game__el">
-            <img
-              class="game__image"
-              src="../img/buy_page/interesting-3.png"
-              alt=""
-            />
-
-            <a class="game__link-basket" href="/pages/buy.html">В корзину</a>
-
-            <div class="prices">
-              <h2 class="price">4 999 Р</h2>
-              <span class="percent">-25%</span>
-              <span class="old-price">6 999 Р</span>
-            </div>
-
-            <span class="game__info"> Minecraft </span>
-            <div class="game__info-under">
-              <div class="game__circle"></div>
-              <span class="game__bust">Буст</span>
-              <div class="game__circle"></div>
-              <span class="game__origin">Origin</span>
+              <span class="game__info"> Minecraft </span>
+              <div class="game__info-under">
+                <div class="game__circle"></div>
+                <span class="game__bust">Буст</span>
+                <div class="game__circle"></div>
+                <span class="game__origin">Origin</span>
+              </div>
             </div>
           </div>
 
           <div class="game__el">
             <img
               class="game__image"
-              src="../img/buy_page/interesting-4.png"
-              alt=""
+              src="../img/games/thewitness.png"
+              alt="thewitness"
             />
 
-            <a class="game__link-basket" href="#">В корзину</a>
+            <a
+              class="game__link-basket-min"
+              href="/pages/basket.html"
+              target="_blank"
+              >В корзину</a
+            >
 
-            <div class="prices">
-              <h2 class="price">4 999 Р</h2>
-              <span class="percent">-25%</span>
-              <span class="old-price">6 999 Р</span>
+            <div class="game__all-info">
+              <div class="prices">
+                <h2 class="price">4 999 Р</h2>
+                <span class="percent">-25%</span>
+                <span class="old-price">6 999 Р</span>
+              </div>
+
+              <span class="game__info"> Minecraft </span>
+              <div class="game__info-under">
+                <div class="game__circle"></div>
+                <span class="game__bust">Буст</span>
+                <div class="game__circle"></div>
+                <span class="game__origin">Origin</span>
+              </div>
             </div>
+          </div>
 
-            <span class="game__info"> Minecraft </span>
-            <div class="game__info-under">
-              <div class="game__circle"></div>
-              <span class="game__bust">Буст</span>
-              <div class="game__circle"></div>
-              <span class="game__origin">Origin</span>
+          <div class="game__el">
+            <img
+              class="game__image"
+              src="../img/games/easrshade.png"
+              alt="easrshade"
+            />
+
+            <a
+              class="game__link-basket-min"
+              href="/pages/basket.html"
+              target="_blank"
+              >В корзину</a
+            >
+
+            <div class="game__all-info">
+              <div class="prices">
+                <h2 class="price">4 999 Р</h2>
+                <span class="percent">-25%</span>
+                <span class="old-price">6 999 Р</span>
+              </div>
+
+              <span class="game__info"> Minecraft </span>
+              <div class="game__info-under">
+                <div class="game__circle"></div>
+                <span class="game__bust">Буст</span>
+                <div class="game__circle"></div>
+                <span class="game__origin">Origin</span>
+              </div>
             </div>
           </div>
         </div>
@@ -423,8 +477,8 @@
             alt="PaiPal"
           />
         </div>
-        <div class="footer__info 12">
-          <div class="footer__column col-3">
+        <div class="footer__info">
+          <div class="footer__column-f col-3">
             <h4 class="footer__title">О компании</h4>
             <nav class="footer__nav nav">
               <ul class="nav__list">
@@ -456,6 +510,7 @@
               </ul>
             </nav>
           </div>
+
           <div class="footer__column col-3">
             <h4 class="footer__title">Договор оферты</h4>
             <nav class="footer__nav nav">
@@ -472,12 +527,21 @@
               </ul>
             </nav>
           </div>
+
           <div class="footer__column safety">
             <div class="safety__icons">
-              <img src="../img/img_footer/webmoney.svg" alt="webmoney" />
+              <img
+                class="footer__image"
+                src="../img/img_footer/webmoney.svg"
+                alt="webmoney"
+              />
             </div>
             <div>
-              <img src="../img/img_footer/google.svg" alt="webmoney" />
+              <img
+                class="footer__image"
+                src="../img/img_footer/google.svg"
+                alt="webmoney"
+              />
             </div>
           </div>
         </div>

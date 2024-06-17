@@ -108,3 +108,44 @@
     padding: 18px 39px;
   }
 }
+
+.basket,
+.checkout {
+  @media screen and (max-width: 560px) {
+    display: none;
+  }
+}
+
+.prices {
+  @media screen and (max-width: 560px) {
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: -10px;
+    display: flex;
+
+    margin-left: 20px;
+    gap: 20px;
+  }
+}
+
+.price {
+  @media screen and (max-width: 560px) {
+    font-size: 18px;
+    font-weight: 500;
+    color: $text-white;
+  }
+}
+
+.percent {
+  padding-top: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  color: $text-green;
+}
+
+.old-price {
+  padding-top: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  color: $text-grey;
+}
