@@ -27,9 +27,13 @@
       cursor: pointer;
 
       .game__nav-link {
-        color: $text-white;
+        color: $text-green;
+        
         text-decoration: underline;
       }
+    }
+    @media screen and(max-width: 560px) {
+      padding-right: 20px;
     }
   }
 

@@ -160,10 +160,10 @@
     padding-right: 25px;
   }
 
-  .basket-2 {
+  .basket-two {
     position: relative;
 
-    &__2-bg {
+    &__two-bg {
       position: absolute;
       top: -13px;
       left: 13px;
@@ -196,6 +196,7 @@
 
 .header {
   @media screen and (max-width: 560px) {
+    margin-top: -30px;
     &__top {
       @media screen and (max-width: 560px) {
         display: none;
@@ -217,6 +218,15 @@
     &__icon-mob {
       @media screen and (max-width: 560px) {
         visibility: inherit;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        opacity: 0.6;
+
+        &:hover {
+          transform: scale(1.5);
+          opacity: 1;
+        }
       }
     }
 
@@ -224,6 +234,14 @@
       @media screen and (max-width: 560px) {
         visibility: inherit;
         padding-left: 10px;
+
+        cursor: pointer;
+        opacity: 0.6;
+
+        &:hover {
+          transform: scale(1.5);
+          opacity: 1;
+        }
       }
     }
 

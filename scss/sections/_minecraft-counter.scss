@@ -1,9 +1,9 @@
 .minecraft-counter {
-  padding-top: -100px;
   &__row {
     position: relative;
     display: flex;
     gap: 50px;
+    margin-bottom: 80px;
   }
 
   &__title {
@@ -28,6 +28,10 @@
 
   &__txt-white {
     color: $text-white;
+  }
+
+  &__txt-white-m {
+    visibility: hidden;
   }
 
   &__icons {
@@ -69,5 +73,19 @@
     width: 290px;
     color: $text-white;
     line-height: 25px;
+  }
+}
+
+.minecraft-counter {
+  @media screen and (max-width: 560px) {
+    &__txt-white {
+      visibility: hidden;
+    }
+
+    &__txt-white-m {
+      visibility: visible;
+      color: $text-white;
+      padding-left: 5px;
+    }
   }
 }

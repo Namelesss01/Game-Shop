@@ -1,7 +1,7 @@
 .footer {
   &__top {
     display: flex;
-    justify-content: space-between;
+
     padding-top: 160px;
   }
 
@@ -70,8 +70,30 @@
   }
 }
 
+.footer__column col-3 {
+  padding-right: 165px;
+}
+
 .footer {
-  @media screen and (max-width: 560px) {
-   
+  &__info {
+    @media screen and (max-width: 560px) {
+      display: block;
+    }
+  }
+  &__column {
+    @media screen and (max-width: 560px) {
+      display: none;
+      text-align: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+  }
+
+  &__column-f {
+    @media screen and (max-width: 560px) {
+      margin-left: 40%;
+
+      text-align: center;
+    }
   }
 }

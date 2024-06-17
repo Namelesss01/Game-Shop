@@ -105,3 +105,10 @@
     border-radius: 15px;
   }
 }
+
+.minecraft__bg-gr {
+  @media screen and (max-width: 560px) {
+    max-width: 530px;
+    max-height: 100%;
+  }
+}
