@@ -420,6 +420,10 @@ table {
   padding-right: 165px;
 }
 
+.top__logo {
+  padding-right: 50px;
+}
+
 @media screen and (max-width: 560px) {
   .footer__info {
     display: block;
