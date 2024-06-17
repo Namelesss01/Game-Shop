@@ -134,6 +134,13 @@
       }
     }
   }
+  &__icon-mob {
+    visibility: hidden;
+  }
+
+  &__basket-mob {
+    visibility: hidden;
+  }
 
   &__logo {
     padding-right: 60px;
@@ -153,10 +160,10 @@
     padding-right: 25px;
   }
 
-  .basket-2 {
+  .basket-two {
     position: relative;
 
-    &__2-bg {
+    &__two-bg {
       position: absolute;
       top: -13px;
       left: 13px;
@@ -178,6 +185,91 @@
   }
 }
 
-@media screen  and (max-width: 560px){
-    
+.logo {
+  &__image {
+    padding-right: 10px;
+  }
+  &__link {
+    display: flex;
+  }
+}
+
+.header {
+  @media screen and (max-width: 560px) {
+    margin-top: -30px;
+    &__top {
+      @media screen and (max-width: 560px) {
+        display: none;
+      }
+    }
+
+    &__free {
+      @media screen and (max-width: 560px) {
+        display: none;
+      }
+    }
+
+    &__heart {
+      @media screen and (max-width: 560px) {
+        display: none;
+      }
+    }
+
+    &__icon-mob {
+      @media screen and (max-width: 560px) {
+        visibility: inherit;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        opacity: 0.6;
+
+        &:hover {
+          transform: scale(1.5);
+          opacity: 1;
+        }
+      }
+    }
+
+    &__basket-mob {
+      @media screen and (max-width: 560px) {
+        visibility: inherit;
+        padding-left: 10px;
+
+        cursor: pointer;
+        opacity: 0.6;
+
+        &:hover {
+          transform: scale(1.5);
+          opacity: 1;
+        }
+      }
+    }
+
+    &__basket-2 {
+      @media screen and (max-width: 560px) {
+        display: none;
+        margin-right: 100px;
+      }
+    }
+
+    &__mob-icons {
+      @media screen and (max-width: 560px) {
+        visibility: visible;
+        margin-right: -40px;
+      }
+    }
+  }
+}
+
+.searchbar {
+  @media screen and (max-width: 560px) {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.header__bottom {
+  @media screen and (max-width: 560px) {
+    display: flex;
+  }
 }

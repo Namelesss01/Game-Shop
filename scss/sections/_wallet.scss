@@ -1,0 +1,79 @@
+.wallet {
+  .container {
+    display: flex;
+  }
+  .checkout {
+    margin-left: 10px;
+  }
+
+  &__rows {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 560px) {
+      display: block;
+      justify-content: center;
+    }
+  }
+
+  &__choose {
+    position: relative;
+    width: 436px;
+    height: 230px;
+    border: 2px solid rgba($color: $bg-white, $alpha: 0.1);
+    border-radius: 20px;
+    padding: 30px;
+
+    @media screen and (max-width: 560px) {
+      margin-top: 40px;
+      margin: 45px;
+    }
+  }
+
+  &__check-box {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid rgba($color: $bg-white, $alpha: 0.1);
+    background-color: none;
+  }
+
+  &__title {
+    color: $text-white;
+    padding-left: 40px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  &__qiwi {
+    position: absolute;
+    left: 140px;
+    bottom: 30px;
+  }
+
+  &__web {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+  }
+
+  &__mir {
+    position: absolute;
+    left: 160px;
+    bottom: 30px;
+  }
+
+  &__visa {
+    position: absolute;
+    left: 75px;
+    bottom: 30px;
+  }
+
+  &__bit {
+    position: absolute;
+    left: 55px;
+    bottom: 30px;
+  }
+}
