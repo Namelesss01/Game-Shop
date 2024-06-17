@@ -339,7 +339,7 @@ table {
   }
 }
 @media screen and (max-width: 560px) and (max-width: 560px) {
-  .header__basket-2 {
+  .header__basket-two {
     display: none;
     margin-right: 100px;
   }
@@ -441,6 +441,19 @@ table {
   .footer__column-f {
     margin-left: 40%;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .footer__top {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .top__logo {
+    padding-right: 12px;
+    margin-top: 50px;
   }
 }
 
@@ -933,6 +946,10 @@ table {
   display: flex;
   position: relative;
 }
+.squad__image {
+  padding-right: 10px;
+  margin: 70px 0;
+}
 .squad__bg {
   position: absolute;
   right: -350px;
@@ -1088,16 +1105,18 @@ table {
 .squad .quality__title {
   color: #ffffff;
   align-self: center;
+  padding-left: 10px;
 }
 .squad__delivery {
   display: flex;
   align-self: center;
 }
 .squad__delivery .quality {
-  margin-left: 29px;
+  margin-left: 39px;
   padding-top: 38px;
 }
 .squad-row {
+  margin-top: 120 5px;
   width: 100%;
   max-height: 29px;
 }
@@ -1184,6 +1203,12 @@ table {
     display: block;
     justify-content: space-around;
     max-width: 1060px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .footer__top {
+    padding-top: 0;
   }
 }
 

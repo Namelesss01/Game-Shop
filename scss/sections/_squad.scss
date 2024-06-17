@@ -6,6 +6,12 @@
     position: relative;
   }
 
+  &__image {
+    padding-right: 10px;
+
+    margin: 70px 0;
+  }
+
   &__bg {
     position: absolute;
     right: -350px;
@@ -52,6 +58,7 @@
 
   &__posters {
     margin-top: 85px;
+
     padding-bottom: 71px;
   }
 
@@ -188,6 +195,7 @@
     &__title {
       color: $text-white;
       align-self: center;
+      padding-left: 10px;
     }
   }
 
@@ -196,12 +204,13 @@
     align-self: center;
 
     .quality {
-      margin-left: 29px;
+      margin-left: 39px;
       padding-top: 38px;
     }
   }
 
   &-row {
+    margin-top: 120 5px;
     width: 100%;
     max-height: 29px;
   }
@@ -304,5 +313,11 @@
       justify-content: space-around;
       max-width: 1060px;
     }
+  }
+}
+
+.footer__top {
+  @media screen and (max-width: 560px) {
+    padding-top: 0;
   }
 }
